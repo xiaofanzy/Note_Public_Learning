@@ -54,7 +54,7 @@ decimal(18,9) -> 小数点两边各存储 9 个数字；而计算过程中，dec
 
 因为 decimal 需要额外的空间和计算开销，所以我们一般使用 bigint 代替 decimal ，如果含有小数，就乘以足够大的系数，这样比较省空间。这样可以避免精度不精确和 decimal 精度计算代价高的问题。
 
-![chatGPT](xqr3AUZxBA6qSUj658ybdnR349FoCIeLUSqWfzeSb7o.png)
+![Alt text](xqr3AUZxBA6qSUj658ybdnR349FoCIeLUSqWfzeSb7o-2.png)
 
 ## 4.1.3 字符串类型
 
